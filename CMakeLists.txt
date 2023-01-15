@@ -3,4 +3,7 @@ project(LUP2Test)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(LUP2Test main.cpp)
+add_executable(LUP2Test
+
+               ReverseInteger.cpp
+               )
