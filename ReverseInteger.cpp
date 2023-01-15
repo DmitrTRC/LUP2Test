@@ -26,7 +26,7 @@ public:
 
 };
 
-int main() {
-    Solution s;
-    std::cout << s.reverse ( 123 ) << std::endl;
-}
+//int main() {
+//    Solution s;
+//    std::cout << s.reverse ( 123 ) << std::endl;
+//}
