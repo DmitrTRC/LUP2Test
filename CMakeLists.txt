@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(LUP2Test
 
-               ReverseInteger.cpp
-               NIM_Game.cpp
-
+#               ReverseInteger.cpp
+#               NIM_Game.cpp
+               SubarraySum.cpp
                )
