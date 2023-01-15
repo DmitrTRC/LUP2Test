@@ -8,4 +8,5 @@ add_executable(LUP2Test
 #               ReverseInteger.cpp
 #               NIM_Game.cpp
                SubarraySum.cpp
+               Zigzag.cpp
                )
