@@ -15,8 +15,8 @@ public:
         std::unordered_map<int, int> s_table;
         s_table[0] = 1;
 
-        for (size_t i = 0; i < nums.size(); ++i) {
-            sum += nums[i];
+        for (int num : nums) {
+            sum += num;
 
             if (s_table.count(sum - k)) {
                 count += s_table[sum - k];
